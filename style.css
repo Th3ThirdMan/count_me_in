@@ -1,6 +1,6 @@
 body {
   font-family: "Fira Code", "Roboto", sans-serif;
-  background-image: url(images/counting-sheep.jpg);
+  background-image: url(images/ballbinary.jpg);
   color: #001c30;
   font-size: 1rem;
   display: flex;
@@ -11,6 +11,7 @@ body {
 
 .container {
   background-color: #fff4f4f5;
+  opacity: 0.8;
   display: flex;
   border-radius: 5px;
   position: relative;
@@ -21,7 +22,6 @@ body {
   height: auto;
   justify-content: center;
   text-align: center;
-  border: black solid 1px;
 }
 
 h1 {
@@ -30,16 +30,17 @@ h1 {
 
 .button-container {
   margin: 50px;
-  border: black dotted 2px;
 }
 
 #value {
-  font-size: 40px;
+  font-size: 60px;
+  border: black dotted 2px;
+  padding: 10%;
 }
 
 .btn {
-  background-color: rgb(250, 250, 95);
-  color: black;
+  background-color: black;
+  color: white;
   font-family: "Fira Code", "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 900;
@@ -47,4 +48,9 @@ h1 {
   padding: 12px;
   border-radius: 5px;
   text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
 }
